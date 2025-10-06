@@ -1,8 +1,8 @@
-/* @font-face {
+ @font-face {
     font-family: 'PyeojinGothic';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2') format('woff2');    
     font-display: swap;
-} */
+} 
 
 
 
@@ -100,7 +100,7 @@ a:hover{
 
 /*section-head*/
 .section-head{
-	margin-bottom: 50px;
+	margin-bottom: 0;  /* 섹션 텍스트 마진 */
 }
 
 .section-head .section-head-icon,
@@ -115,13 +115,14 @@ a:hover{
 .resume-head i{
 	font-size: 30px;
 	color: #fff;
-	line-height: 40px;
+/* 	line-height: 40px; */
 }
 
 .section-head .section-head-text h2{
 	text-transform: uppercase;
 	font-weight: 600;
-	margin-top: 10px;
+	margin-top: 10px;	
+ margin-bottom: 20px;
 }
 
 .section-head .section-head-text h3{  
@@ -208,8 +209,7 @@ a:hover{
 #banner {
   position: relative;
   width: 100%; 
-  height : 75vh ; 
-   
+  height : 75vh ;    
   overflow: hidden;
   color: #fff;
 }
@@ -308,7 +308,7 @@ a:hover{
 }
 
 #menu .navbar-nav{
-    margin: 0px 8%;   
+    margin: 0px 8%;      /* 수정금지 */
 }
 
 #menu .navbar-default{
@@ -324,7 +324,7 @@ a:hover{
 	color: #fff;
     font-size: 18px;
     font-weight: 400;
-    padding: 2.5rem 6.4rem;
+    padding: 2.5rem 6.0rem;
 }
 
 #menu .navbar-default .navbar-nav>.active>a, 
@@ -344,17 +344,19 @@ a:hover{
 #price,
 #blog,
 #resume{
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
+	padding-top: 8.4rem;   
+	padding-bottom: 4.2rem;
+}  /* 섹션 상하 패딩 수정금지 */
 
 #about .about-area .about-me h3{
 	font-size: 24px; 
-	font-weight: 600;
+	font-weight: 600;    
+/* 	border: 1px solid red; */
 }
 
 #about .about-area .about-me h4{
-	font-size: 16px; 
+	font-size: 24px; 
+	line-height: 20px ;
 }
 
 #about .about-area .about-me p{
@@ -362,8 +364,12 @@ a:hover{
 	margin-bottom: 30px; 
 }
 
+.list-group {
+	margin-top: 40px ;
+}
+
 .list-group-item {
-    padding: 5px 0px;
+    padding: 10px 0px;
     background-color: transparent;
     border: none;
 }
@@ -388,27 +394,73 @@ a:hover{
 	margin-top: 40px;
 }
 
+
+.resume_box {
+	display: grid ;  
+	width : 440px ; 
+	height : 200px ;   
+	grid-template-columns: (1, fr);
+	font-family: 'PyeojinGothic'; 
+
+}
+
+.cover{
+	width : 200px ; 
+	height : 190px ;    
+	background: #87CEEB;  
+	grid-column: 1/2;  
+	color : white ;  
+	text-align: center; 
+	align-items: center; 
+	font-size : 2.0rem ;   
+	padding-top : 90px ;   		
+}
+
+
+.github {
+	width : 200px ; 
+	height : 190px ;    
+	background: #87CEEB;   
+	grid-column: 2/3;   
+	color : white ;  
+	text-align: center; 
+	align-items: center; 
+	font-size : 2.0rem ;  
+	padding-top : 90px ;  
+		
+}
+
+.cover:hover, 
+.github:hover { 
+	background-color: #F6C445;  
+	color : #223338 ; 
+	font-weight: 800 ;
+}
+
 #about .about-area .my-ability h3{
 	font-size: 24px;
 	font-weight: 600;
-	margin-bottom: 40px;
-}
+	margin-bottom: 20px; 
+/* 	border: 1px solid red; */
+}  /* what am i doing */
 
 #about .about-area .my-ability-content{
-	background-color: #282828;
+	background-color: #87CEEB ; 
 	color: #fff;
 	text-align: center;
-	padding: 30px 0px;
+	padding: 10px 5px;
 	-webkit-transition: .5s;
 	-moz-transition: .5s;
 	-ms-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
-	margin-bottom: 20px;
+	margin-bottom: 25px; 
+	font-family: ;
 }
 
 #about .about-area .my-ability-content i{
-	font-size: 65px;
+	font-size: 65px; 
+	margin-top: 30px; 
 }
 
 #about .about-area .my-ability-content h4{
@@ -418,9 +470,13 @@ a:hover{
 }
 
 #about .about-area .my-ability-content:hover{
-	background-color: #87ceeb ;  
+	background-color: #F6C445 ;  
 	color : #223338 ; 
 }
+
+
+
+
 /*==================== end of css for about section ====================*/
 
 
@@ -1075,6 +1131,7 @@ a:hover{
 .categories .list-group-item{
 	padding: 10px 0px;
 }
+
 
 .categories li a:hover{
 	color: #FF3741;

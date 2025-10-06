@@ -76,7 +76,7 @@
 }
 */
 #banner .banner-text {
-    margin-top: 40px;
+    margin-top: 3.5rem;
 }
 
 #banner .banner-text h2 {
@@ -90,6 +90,10 @@
 
 #banner .scroll-down {
     margin: 65px auto;
+}
+
+#menu .navbar-default .navbar-nav > li {
+     padding: 2.5rem 1.8rem; 
 }
 
 #menu .navbar-default .navbar-nav > li > a {
@@ -172,6 +176,8 @@
 #banner .scroll-down {
     margin: 85px auto;
 }
+
+
 
 #menu .navbar-default .navbar-nav > li > a {
     font-size: 17px;
