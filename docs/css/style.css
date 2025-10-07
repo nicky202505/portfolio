@@ -119,17 +119,18 @@ a:hover{
 }
 
 .section-head .section-head-text h2{
-	text-transform: uppercase;
+text-transform: uppercase;
 	font-weight: 600;
 	margin-top: 10px;	
- margin-bottom: 20px;
+ margin-bottom: 20px; 
+ color : #223338 ; 
 }
 
 .section-head .section-head-text h3{  
-    font-family: 'PyeojinGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2') format('woff2');    
+    font-family: 'PyeojinGothic';  
     font-display: swap; 
-	font-weight : 800 ; 
+	font-weight : 800 ;  
+	 color : #223338 ;  
 }
 
 /*==================== end of css for all section ====================*/
@@ -337,13 +338,25 @@ a:hover{
 }
 /*==================== end of css for menu section ====================*/
 
-/*==================== css for about section ====================*/
+/*==================== css for about section ====================*/ 
+#about  {
+	border-bottom: 1px solid #95aeb8;
+	box-shadow: 0 3px 5px #778083d0; 
+}
+
+#our-skill { 
+    border-bottom: 1px solid #95aeb85d;
+	box-shadow: 0 1px 2px #77808349;       
+}
+
+#works{
+  border-bottom: 1px solid #95aeb8;  
+ box-shadow: 0 3px 5px #778083d0;  }  
+
+
 #about,
-#services,
-#works,
-#price,
-#blog,
-#resume{
+#works
+{
 	padding-top: 8.4rem;   
 	padding-bottom: 4.2rem;
 }  /* 섹션 상하 패딩 수정금지 */
@@ -483,13 +496,13 @@ a:hover{
 
 
 /*==================== css for our-skill section ====================*/
-#our-skill{
+/* #our-skill{
 	background: url(../images/skill.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	color: #fff;
-}
+} */
 
 .skill-area{
 	padding: 100px 0px;
@@ -502,14 +515,15 @@ a:hover{
 .skill .lead{
 	font-size: 25px;
 	margin-bottom: 0px;
+	color : #223338 ; 
 }
 
 .progress{
 	height: 25px;
-	background-color: #EEE;
-	border-radius: 6px;
-	box-shadow: 0px 0px 12px rgba(0,0,0,.8);
-	-webkit-box-shadow: 0px 0px 12px rgba(0,0,0,.8);
+	background-color: #fafafa; 
+	border-radius: 50px ;  
+	box-shadow: 0px 0px 12px #87cEEB; 
+	-webkit-box-shadow: 0px 0px 12px #9cb6c2; 
 	margin-bottom: 20px;
 	margin-top: 15px;  
 }
@@ -517,7 +531,8 @@ a:hover{
 .progress-bar{
 	box-shadow: none;
 	-webkit-box-shadow: none;
-	background-color: #1E90FF;  
+	background-color: #87cEEB ; 
+
 }
 
 .progress .progress-bar.six-sec-ease-in-out{
@@ -536,8 +551,9 @@ a:hover{
 	height: 40px;
 	position: relative;
 	left: 91.5%;
-	background-color: #1E90FF;  
+	background-color: #f6c445; 
 	margin-top: -50px;
+	border-radius: 8px ;
 }
 
 .percent::before{
@@ -547,21 +563,26 @@ a:hover{
     height: 0;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    border-top: 14px solid #1E90FF;  
+    border-top: 14px solid #f6c445;  
     top: 100%;
     left: 35%;
 }
 
-.people-like{
-	background-color: #fff;
-	padding: 22px 35px;
-	color: #282828;
+.people-like{ 
+	width : 500px ; 
+	height : 500px ; 
+ 	background-color: #f7f3eba9; 
+	padding: 10px 35px;
+	color: #223338 ;  
+	border: 1px solid #f7f3eba9;  
+	box-shadow: 0 0.3px 10px #7676769a;
 }
 
 .people-like h3{
 	font-size: 24px;
 	font-weight: 600;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
+	line-height: 2.4rem ;
 }
 
 .people-like .list-group{
@@ -573,47 +594,20 @@ a:hover{
 }
 
 .people-like .list-group i{
-	color: #FF3741;
+	color: #ff785a;   
 }
 /*==================== end of css for our-skill section ====================*/
 
-/*==================== css for counter-up section ====================*/
-.counter-up-bg{
-	background: url(../images/counter-img.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
+
 
 .overlay{
-	background: rgba(0, 0, 0, .8);
+	background: white ; 
 }
 
-.counter-up-area{
-	padding: 100px 0px;
-}
 
-.counter-up-content{
-	color: #fff;
-}
+/*==================== css for works section ====================*/ 
 
-.counter-up-content i{
-	font-size: 60px;
-}
 
-.counter-up-content .list-inline span{
-	font-size: 40px;
-}
-
-.counter-up-content h3{
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: 500;
-	margin-top: 20px;  
-}
-/*==================== end of css for counter-up section ====================*/
-
-/*==================== css for works section ====================*/
 .no-padding{
 	padding-right: 0;
 	padding-left: 0;
@@ -696,7 +690,7 @@ a:hover{
 }
 
 .work-head .filter button.current{
-	color: #229ebd;
+	color: #87cEEb;
 }
 
 .work-overlay a{
@@ -926,16 +920,16 @@ a:hover{
 
 
 /*==================== css for contact section ====================*/
-#contact{
+/* #contact{
 	background: url(../images/contact.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	color: #fff;
-}
+} */
 
 .contact-area{
-	padding: 100px 0px;
+	padding: 40px 0px;
 }
 
 .address-content i{
