@@ -467,8 +467,7 @@ text-transform: uppercase;
 	-ms-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
-	margin-bottom: 25px; 
-	font-family: ;
+	margin-bottom: 25px;  	
 }
 
 #about .about-area .my-ability-content i{
@@ -660,7 +659,7 @@ text-transform: uppercase;
 }
 
 /* 5) 필터용 클래스 오타 방지 */
-.work-area .development { /* .developmnet, .devlopment 오타 금지! */ }
+
 
 
 
