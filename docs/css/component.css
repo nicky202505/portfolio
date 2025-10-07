@@ -2,7 +2,7 @@
 	width: auto;
 	height: auto;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 30px; 
 }
 
 .md-modal {
@@ -46,32 +46,36 @@
 	visibility: visible;
 }
 
-/* Content styles */  /* 프로젝트 팝업 박스 */
+/* Content styles */  /* 프로젝트 팝업 박스 */  
 .md-content {
 	color: #223338;
 	background: #f7f3eb; 
 	position: relative;
-	border-radius: 3px;
+	border-radius: 3px; 
 	margin: 0 auto; 
 }
 
-.md-content h3 {
-	margin: 0;
+.md-content h3 { 	
+	margin-top : -30px ;  
 	padding: 0.4em;
-	text-align: center;
+	 text-align: center; 
 	font-size: 20px;
 /* 	background: rgba(0,0,0,0.1); */  /* 팝업 박스 타이틀 배경색 */
-	border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;  
 }
 
 .md-content > div {
-	padding: 15px 15px;
+	padding: 60px 30px; 
 	margin: 0;
-}
+}  /* row */
 
-.md-content p {
-	padding: 10px 0;
+.work-details {
+	margin-top : -100px ; 
+	padding : 40px ;    
+	font-size: 20px ;
 }
+	
+
 
 .md-content button {
 /* 	background-color: #ff3741;
@@ -79,6 +83,7 @@
     border: 1px solid #f6c445; 
 	display: block;
 	margin: 0 auto;
+	margin-right: 60px ;
 	font-size: 16px;
 	padding: 10px 30px;
 }  /*  팝업 박스 닫기 버튼  */

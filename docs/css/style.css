@@ -359,7 +359,7 @@ text-transform: uppercase;
 {
 	padding-top: 8.4rem;   
 	padding-bottom: 4.2rem;
-}  /* 섹션 상하 패딩 수정금지 */
+}  /* 섹션 상하 패딩 수정금지 */ 
 
 #about .about-area .about-me h3{
 	font-size: 24px; 
@@ -605,7 +605,18 @@ text-transform: uppercase;
 
 
 /*==================== css for works section ====================*/ 
+.list-group-item li,
+.live li
+{
+	list-style: none; 
+}
 
+
+.live ul {
+	display : flex ; 
+	width : 800px ;   
+	gap : 40px ; 
+}
 
 .no-padding{
 	padding-right: 0;
