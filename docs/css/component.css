@@ -46,13 +46,13 @@
 	visibility: visible;
 }
 
-/* Content styles */
+/* Content styles */  /* 프로젝트 팝업 박스 */
 .md-content {
-	color: #fff;
-	background: #282828;
+	color: #223338;
+	background: #f7f3eb; 
 	position: relative;
 	border-radius: 3px;
-	margin: 0 auto;
+	margin: 0 auto; 
 }
 
 .md-content h3 {
@@ -60,7 +60,7 @@
 	padding: 0.4em;
 	text-align: center;
 	font-size: 20px;
-	background: rgba(0,0,0,0.1);
+/* 	background: rgba(0,0,0,0.1); */  /* 팝업 박스 타이틀 배경색 */
 	border-radius: 3px 3px 0 0;
 }
 
@@ -74,17 +74,19 @@
 }
 
 .md-content button {
-	background-color: #ff3741;
-	color: #fff;
+/* 	background-color: #ff3741;
+ */	color: #223338; 
+    border: 1px solid #f6c445; 
 	display: block;
 	margin: 0 auto;
 	font-size: 16px;
 	padding: 10px 30px;
-}
+}  /*  팝업 박스 닫기 버튼  */
+
 
 .md-content button:hover{
-	background-color: #fff;
-	color: #ff3741;
+	background-color: #f6c445; 
+	color: #223338; 
 }
 
 /* Effect 2: Slide from the right */

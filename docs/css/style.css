@@ -615,7 +615,55 @@ text-transform: uppercase;
 
 .element-item{
 	position: relative;
+} 
+
+/* 1) 그리드 간격(가터) 주기: 부트스트랩3 호환 방식 */ 
+
+.work-area {
+	margin-left : 48px ; 
+	margin-right: 48px ;
 }
+
+.work-area .work-item {
+  margin-left: -12px;
+  margin-right: -12px; 
+}
+
+
+.work-area .work-item > [class*="col-"] {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 24px; /* 행 간 간격 */  
+}
+
+/* 2) 아이템 박스 자체를 80% 크기로 축소하고 가운데 정렬 */
+.work-area .element-item {
+  width: 80%;
+  margin: 0 auto;          /* 가운데 정렬 */
+  overflow: hidden;         /* 오버레이/이미지 삐져나옴 방지 */
+  border-radius: 8px;       /* (선택) 살짝 둥글게 */
+}
+
+/* 3) 이미지 기본 */
+.work-area .element-item img {
+  display: block;
+  width: 100%;
+  height: auto;  
+}
+
+/* 4) 오버레이가 element-item에 딱 맞도록(선택) */
+.work-area .work-overlay {
+  pointer-events: none;     /* 아이콘만 클릭 가능하게 하려면 유지 */
+}
+.work-area .work-overlay .md-trigger {
+  pointer-events: auto;     /* 아이콘 클릭 가능 */  
+}
+
+/* 5) 필터용 클래스 오타 방지 */
+.work-area .development { /* .developmnet, .devlopment 오타 금지! */ }
+
+
+
 
 .work-overlay{
 	position: absolute;
@@ -636,16 +684,19 @@ text-transform: uppercase;
     transform: scale(1);
 }
 
-.work-overlay i{
-	position: absolute;
+
+
+.work-overlay p {
+		position: absolute;
 	color: #fff;
-	font-size: 50px;
-	left: 40%;
-	top: 38%;
+	font-size: 36px;
+	left: 35%;
+	top: 38%;  
 }
 
+
 .portfolioFilter a{ 
-    color:#666;
+    color:#223338; 
     text-decoration:none;
 }
  

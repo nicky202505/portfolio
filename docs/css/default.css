@@ -9,7 +9,7 @@
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 	font-weight: normal;
-	font-style: normal;
+	font-style: normal; 
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -32,7 +32,7 @@ a {
 
 a:hover,
 a:active {
-	color: #333;
+	color: #333;   
 }
 
 /* Header Style */
@@ -141,7 +141,7 @@ a:active {
 button {
 	border: none;
 	padding: 0.6em 1.2em;
-	background: #c0392b;
+	background: #87ceeb; 
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	font-size: 1em;
@@ -154,7 +154,7 @@ button {
 }
 
 button:hover {
-	background: #A5281B;
+	background: #f6c445; 
 }
 
 @media screen and (max-width: 46.0625em) {
