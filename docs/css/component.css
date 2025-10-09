@@ -80,7 +80,7 @@
 .md-content button {
 /* 	background-color: #ff3741;
  */	color: #223338; 
-    border: 1px solid #f6c445; 
+    border: 1px solid #223338; 
 	display: block;
 	margin: 0 auto;
 	margin-right: 60px ;
@@ -90,8 +90,8 @@
 
 
 .md-content button:hover{
-	background-color: #f6c445; 
-	color: #223338; 
+	background-color: #223338; 
+	color: #f7f3eb;  
 }
 
 /* Effect 2: Slide from the right */

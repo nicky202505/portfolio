@@ -1,9 +1,6 @@
- @font-face {
-    font-family: 'PyeojinGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2') format('woff2');    
-    font-display: swap;
-} 
-
+body{
+	 font-family: "Didact Gothic", sans-serif;  
+}
 
 
 
@@ -19,15 +16,10 @@ body{
 	position : relative ; 
 }
 
-@font-face {
-    font-family: 'PyeojinGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2') format('woff2');    
-    font-display: swap;
-}
 
-h1, h2, h3, h4, h5, h6{ 
-    font-family: 'PyeojinGothic', sans-serif;  
-	font-weight : 800 ;   
+
+h1, h2, h3, h4, h5, h6{  
+	font-weight : 800 ;    
 }
 
 
@@ -126,12 +118,7 @@ text-transform: uppercase;
  color : #223338 ; 
 }
 
-.section-head .section-head-text h3{  
-    font-family: 'PyeojinGothic';  
-    font-display: swap; 
-	font-weight : 800 ;  
-	 color : #223338 ;  
-}
+
 
 /*==================== end of css for all section ====================*/
 
@@ -245,14 +232,7 @@ text-transform: uppercase;
 }
 
 
-/* #banner .banner-text h3 {  
-    font-family: 'PyeojinGothic';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2504-1@1.0/PyeojinGothic-Regular.woff2') format('woff2');    
-    font-display: swap;
-	font-weight : 800 ;   
-  font-size: clamp(3.2rem, 6vw, 4.8rem); 
-  color : #223338; 
-} */
+
 
 #banner .banner-text h2 {
   font-size: clamp(3.2rem, 6vw, 4.8rem);
@@ -401,11 +381,7 @@ text-transform: uppercase;
 	color: red ;   
 }
 
-#about .about-area .about-me .signature{
-	font-family: 'Mrs Saint Delafield', cursive;
-	font-size: 40px;
-	margin-top: 40px;
-}
+
 
 
 .resume_box {
@@ -605,6 +581,24 @@ text-transform: uppercase;
 
 
 /*==================== css for works section ====================*/ 
+
+.title_modal {
+	width : 80% ;  
+	margin : 0 auto ; 	
+	height : auto ; 
+	text-align: center;
+}
+
+.work-details {
+	padding-top : 50px ; 
+	
+}
+
+
+.fa-solid.fa-circle {
+	font-size: 8px ;
+}
+
 .list-group-item li,
 .live li
 {
@@ -920,11 +914,7 @@ text-transform: uppercase;
 	margin: 0px;
 }
 
-.resume-overlay h4{
-	font-size: 30px;
-	font-family: 'Italianno', cursive;
-	margin: 10px 0px;
-}
+
 
 .resume-overlay h5{
 	font-size: 18px;
